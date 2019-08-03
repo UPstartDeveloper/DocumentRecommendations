@@ -116,7 +116,7 @@
  												temp.getQuality(),
  												temp.getDocNo()));							
  					//old Recommendation deleted
- 					docs.getObj().remove(docPlace + 1);
+ 					docs.getObj().remove(docPlace - 1);
  					
  					//user allowed to make edits
  					System.out.print("What would you like to change in this documents information? \n" +
@@ -131,7 +131,7 @@
  					{
  						case 1:
  						docs.initCar();
- 						docs.getObj().get(docPlace).setCarType(input.nextInt());
+ 						docs.getObj().get(docPlace - 1).setCarType(input.nextInt());
  						System.out.println("");
  						System.out.println("Your change has been processed sucessfully.");
  						break;
