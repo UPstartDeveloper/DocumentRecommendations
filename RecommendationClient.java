@@ -140,14 +140,14 @@
  						
  						case 2:
  						docs.initDelivery();
- 						docs.getObj().get(docPlace).setDelivery(input.nextInt());
+ 						docs.getObj().get(docPlace - 1).setDelivery(input.nextInt());
  						System.out.println("");
  						System.out.println("Your change has been processed sucessfully.");
  						break;
  						
  						case 3:
  						docs.initQuality();
- 						docs.getObj().get(docPlace).setQuality(input.nextInt());
+ 						docs.getObj().get(docPlace - 1).setQuality(input.nextInt());
  						System.out.println("");	
  						System.out.println("Your change has been processed sucessfully.");
  						break;
