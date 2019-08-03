@@ -23,11 +23,13 @@
  		int optionChoice = 0; // control variable for which operation user does
  		String choice = ""; // user needs to choose to see all Recommendations or a few
  		int docChoice = 0; // variable to search for a particular Recommendation by its docNumber
-		int infoChoice; // used in option 3 		
+		int infoChoice; // used in option 3 
+		
+		System.out.println("Welcome to your Recommendation Manager!");
 
  		do 
  		{
- 			System.out.print("Welcome to your Recommendation Manager! Here are your options: \n" +
+ 			System.out.print("Here are your options: \n" +
  							   "1: Get a new recommendation \n" +
  							   "2: Look at a previous recommendation \n" +
  							   "3: Edit a recommendation  \n" +
